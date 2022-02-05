@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+html,body {
+  height: 100%;
+background-color: hsl(26deg 24% 80%);
+}
+
+
+
+.topBar {
+  width: 100%;
+  height: 30%;
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 5px groove #d18d0e ;
+}
+
+.sideimg img{
+  width: 45%;
+}
+
+.sideimg { 
+  text-align: center;
+}
+
+.topMenu {
+  box-sizing: border-box;
+  text-align: center;
+  position: sticky;
+}
+
+.topMenu a {
+  box-sizing: border-box;
+  display: inline;
+  color: #d18d0e;
+  margin-right: 2%;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.topMenu a:hover {
+  color: rgb(96, 96, 216);
+}
+
+.content {
+  box-sizing: border-box;
+  text-align: left;
+  margin-top: 20%;
+  margin-left: 5%;
+  margin-right: 25%;
+  padding-bottom: 5%;
+
+}
+
+.contentTitle a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: xx-large;
+  margin-top: 10%;
+}
+
+.contentTitle::first-letter {
+  font-size: 200%;
+  color: #d18d0e;
+}
+
+.mainText {
+  margin-top: 3%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: larger;
+  margin-bottom: 5%;
+
+}
+
+.mainTextt {
+  margin-top: 3%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: larger;
+  margin-bottom: 5%;
+
+}
+
+.mainText::first-letter {
+  font-size: 200%;
+  color: #d18d0e;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.adminArea {
+  padding-top: 10%;
+  font-family: 'Josefin Sans', sans-serif;
+}
